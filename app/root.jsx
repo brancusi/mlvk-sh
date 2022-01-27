@@ -7,7 +7,7 @@ import {
   ScrollRestoration,
 } from "remix";
 
-import styles from "./styles/tailwind.css";
+import styles from "../styles/tailwind.css";
 
 export function links() {
   return [{ rel: "stylesheet", href: styles }];
