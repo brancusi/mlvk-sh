@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .custom-class {
+    @apply ...;
+  }
+}
+
+body {
+  background-color: #fff7e6;
+}
